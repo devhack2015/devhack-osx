@@ -1,7 +1,8 @@
-/Users/devhack/.gitignore
+/Users/devhack/tmp/myproject/.gitignore
 /Users/devhack/.bash_env
 /Users/devhack/.bashrc
 /Users/devhack/.ssh/id_rsa
+/Users/devhack/.gitignore
 /Users/devhack/bin/dottar
 /Users/devhack/Sites/env/foobar/project/README.md
 /Users/devhack/Sites/env/foobar/project/requirements.txt

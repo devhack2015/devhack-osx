@@ -128,9 +128,3 @@ if [ -f ~/.bash_env ]; then
     . ~/.bash_env
 fi
 
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
- [ -f /etc/bash_completion ] && ! shopt -oq posix && source  /etc/bash_completion
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
