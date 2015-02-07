@@ -8,21 +8,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\vexit
+~MSle0~/\vPIP_REQUIRE_VIRTUALENV
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq!
-:q!
 :q
+:q!
 :set paste
 :set paster
 :set pste
 :w
 
 # Search String History (newest to oldest):
+?/\vPIP_REQUIRE_VIRTUALENV
 ?/\vexit
 ?/\vexijk
 ?/\vPATH
@@ -56,27 +57,29 @@ $
 "9	LINE	0
 	    source ~/.bashrc
 ""-	CHAR	0
-	        
+	true
 
 # File marks:
-'0  7  0  ~/.gitignore
-'1  6  5  ~/.gitignore
-'2  2  0  ~/.gitignore
-'3  70  7  ~/.bash_env
-'4  1  39  ~/bin/dottar
-'5  4  29  ~/Sites/env/foobar/project/README.md
-'6  1  5  ~/Sites/env/foobar/project/requirements.txt
-'7  2  40  ~/.hgrc
-'8  16  0  ~/Sites/env/postactivate
-'9  23  0  ~/Sites/env/postactivate
+'0  35  38  ~/.bash_env
+'1  1  0  ~/.bashrc
+'2  7  0  ~/.gitignore
+'3  6  5  ~/.gitignore
+'4  2  0  ~/.gitignore
+'5  70  7  ~/.bash_env
+'6  1  39  ~/bin/dottar
+'7  4  29  ~/Sites/env/foobar/project/README.md
+'8  1  5  ~/Sites/env/foobar/project/requirements.txt
+'9  2  40  ~/.hgrc
 
 # Jumplist (newest first):
+-'  35  38  ~/.bash_env
+-'  1  0  ~/.bash_env
+-'  1  0  ~/.bashrc
 -'  7  0  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  6  5  ~/.gitignore
 -'  2  0  ~/.gitignore
 -'  70  7  ~/.bash_env
--'  1  0  ~/.bash_env
 -'  1  39  ~/bin/dottar
 -'  1  0  ~/bin
 -'  4  29  ~/Sites/env/foobar/project/README.md
@@ -90,7 +93,6 @@ $
 -'  3  7  ~/Sites/env/postactivate
 -'  4  0  ~/.bash_env
 -'  136  32  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  40  0  ~/.bash_env
 -'  134  59  ~/.bashrc
 -'  133  0  ~/.bashrc
@@ -167,22 +169,13 @@ $
 -'  1  40  ~/README.md
 -'  1  40  ~/README.md
 -'  1  0  ~/bin/.bashrc
--'  1  40  ~/README.md
--'  1  40  ~/README.md
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	"	7	0
-	^	8	8
-	.	8	0
-	+	6	6
-	+	8	0
-
 > ~/.bash_env
-	"	70	7
-	^	70	46
-	.	70	7
+	"	35	38
+	^	35	39
+	.	35	38
 	+	1	0
 	+	49	0
 	+	2	0
@@ -201,6 +194,38 @@ $
 	+	38	2
 	+	4	0
 	+	70	7
+	+	35	38
+
+> ~/.bashrc
+	"	1	0
+	.	136	32
+	+	137	0
+	+	137	0
+	+	137	0
+	+	131	0
+	+	129	2
+	+	134	0
+	+	134	49
+	+	135	0
+	+	134	52
+	+	134	56
+	+	135	0
+	+	134	49
+	+	134	52
+	+	135	0
+	+	134	60
+	+	137	0
+	+	135	0
+	+	136	0
+	+	135	21
+	+	136	32
+
+> ~/.gitignore
+	"	7	0
+	^	8	8
+	.	8	0
+	+	6	6
+	+	8	0
 
 > ~/bin/dottar
 	"	1	39
@@ -234,30 +259,6 @@ $
 	+	21	0
 	+	23	0
 	+	16	0
-
-> ~/.bashrc
-	"	136	32
-	.	136	32
-	+	137	0
-	+	137	0
-	+	137	0
-	+	131	0
-	+	129	2
-	+	134	0
-	+	134	49
-	+	135	0
-	+	134	52
-	+	134	56
-	+	135	0
-	+	134	49
-	+	134	52
-	+	135	0
-	+	134	60
-	+	137	0
-	+	135	0
-	+	136	0
-	+	135	21
-	+	136	32
 
 > ~/tmp/distribute-0.6.28/.bash_env
 	"	1	0
