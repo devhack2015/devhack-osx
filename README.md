@@ -1,2 +1,1 @@
-# devhack-osx
-devhack user on osx
+# devhack using osx template home account

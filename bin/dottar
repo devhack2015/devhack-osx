@@ -1,0 +1,2 @@
+(cd ~;tar zcf src/dotfiles.tgz .bash* .gnu* .vimrc .gnupg .ssh)
+(cd ~/src;~/bin/enc dotfiles.tgz)

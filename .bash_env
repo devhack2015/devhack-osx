@@ -1,0 +1,70 @@
+export ARCHFLAGS="-arch x86_64"
+export EDITOR=vim
+
+# Path ------------------------------------------------------------
+if [ -d ~/.local/bin ]; then
+    export PATH=~/.local/bin:$PATH
+    fi
+
+# Python path -----------------------------------------------------
+if [ -d ~/.local/lib/python2.7/site-packages ]; then
+    export PYTHONPATH=~/.local/lib/python2.7/site-packages:$PYTHONPATH
+    fi
+# Turn on advanced bash completion if the file exists
+if [ -f /usr/local/etc/bash_completion ]; then
+  . /usr/local/etc/bash_completion
+fi
+
+# Locate virtualenvwrapper binary
+if [ -f ~/.local/bin/virtualenvwrapper.sh ]; then
+    export VENVWRAP=~/.local/bin/virtualenvwrapper.sh
+fi
+
+if [ ! -z $VENVWRAP ]; then
+    # virtualenvwrapper -------------------------------------------
+    # make sure env directory exists; else create it
+    [ -d $HOME/sites/env ] || mkdir -p $HOME/sites/env
+    export WORKON_HOME=$HOME/sites/env
+    source $VENVWRAP
+
+    # virtualenv --------------------------------------------------
+    export VIRTUALENV_USE_DISTRIBUTE=true
+
+    # pip ---------------------------------------------------------
+    export PIP_VIRTUALENV_BASE=$WORKON_HOME
+    export PIP_REQUIRE_VIRTUALENV=true
+    export PIP_RESPECT_VIRTUALENV=true
+    export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+fi
+
+# ----------------------------------------------------------------
+export GOARCH=amd64
+export GOOS=darwin
+export GOROOT="$HOME/.local/go"
+export GOPATH="$HOME/go"
+
+export PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
+SSH_ENV=$HOME/.ssh/environment
+   
+
+# start the ssh-agent
+function start_agent {
+    echo "Initializing new SSH agent..."
+    # spawn ssh-agent
+    /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+    echo succeeded
+    chmod 600 "${SSH_ENV}"
+    . "${SSH_ENV}" > /dev/null
+    /usr/bin/ssh-add
+}
+   
+if [ -f "${SSH_ENV}" ]; then
+     . "${SSH_ENV}" > /dev/null
+     ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+        start_agent;
+    }
+else
+    start_agent;
+fi
+
+export PATH="$HOME/local/bin:$PATH"

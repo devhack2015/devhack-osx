@@ -1,0 +1,6 @@
+\rm ~/.bash_history
+
+/usr/bin/git add -A .
+/usr/bin/git commit -m "automated check-in"
+/usr/bin/git push
+

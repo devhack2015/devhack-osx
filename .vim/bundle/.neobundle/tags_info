@@ -1,0 +1,10 @@
+ctrlp.vim
+neobundle.vim
+neosnippet-snippets
+neosnippet.vim
+supertab
+tern_for_vim
+vim-colorschemes
+vim-fugitive
+vim-ruby
+vimshell

@@ -1,0 +1,12 @@
+/Users/devhack/.gitignore
+/Users/devhack/.ssh/id_rsa
+/Users/devhack/.bash_env
+/Users/devhack/bin/dottar
+/Users/devhack/Sites/env/foobar/project/README.md
+/Users/devhack/Sites/env/foobar/project/requirements.txt
+/Users/devhack/.hgrc
+/Users/devhack/Sites/env/postactivate
+/Users/devhack/sites/env/postactivate
+/Users/devhack/.bashrc
+/Users/devhack/.profile
+/Users/devhack/README.md

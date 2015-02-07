@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/alex/.vim/bundle/.neobundle'
+let g:netrw_dirhist_2='/Volumes/USB128/Users/alex/github/iot/bin'
+let g:netrw_dirhist_3='/Users/alex/work/alex2006hw-dev.github.io/eval/davidtucker-blog/contents/error'
+let g:netrw_dirhist_4='/Users/alex/work/www/.git'
+let g:netrw_dirhist_5='/Users/alex/dev/cobjet/sites/nodeapp/.git'
+let g:netrw_dirhist_6='/Users/devhack/.local/lib/python2.7/site-packages'
+let g:netrw_dirhist_7='/Users/devhack/bin'
