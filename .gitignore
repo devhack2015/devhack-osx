@@ -6,6 +6,7 @@
 .gnupg
 .hgrc
 .local
+.pip
 Applications
 Downloads
 Library

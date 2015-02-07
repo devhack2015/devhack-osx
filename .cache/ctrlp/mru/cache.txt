@@ -1,6 +1,6 @@
+/Users/devhack/.gitignore
 /Users/devhack/.bash_env
 /Users/devhack/.bashrc
-/Users/devhack/.gitignore
 /Users/devhack/.ssh/id_rsa
 /Users/devhack/bin/dottar
 /Users/devhack/Sites/env/foobar/project/README.md

@@ -60,23 +60,24 @@ $
 	true
 
 # File marks:
-'0  35  38  ~/.bash_env
-'1  1  0  ~/.bashrc
-'2  7  0  ~/.gitignore
-'3  6  5  ~/.gitignore
-'4  2  0  ~/.gitignore
-'5  70  7  ~/.bash_env
-'6  1  39  ~/bin/dottar
-'7  4  29  ~/Sites/env/foobar/project/README.md
-'8  1  5  ~/Sites/env/foobar/project/requirements.txt
-'9  2  40  ~/.hgrc
+'0  9  3  ~/.gitignore
+'1  35  38  ~/.bash_env
+'2  1  0  ~/.bashrc
+'3  7  0  ~/.gitignore
+'4  6  5  ~/.gitignore
+'5  2  0  ~/.gitignore
+'6  70  7  ~/.bash_env
+'7  1  39  ~/bin/dottar
+'8  4  29  ~/Sites/env/foobar/project/README.md
+'9  1  5  ~/Sites/env/foobar/project/requirements.txt
 
 # Jumplist (newest first):
+-'  9  3  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  35  38  ~/.bash_env
 -'  1  0  ~/.bash_env
 -'  1  0  ~/.bashrc
 -'  7  0  ~/.gitignore
--'  1  0  ~/.gitignore
 -'  6  5  ~/.gitignore
 -'  2  0  ~/.gitignore
 -'  70  7  ~/.bash_env
@@ -172,6 +173,14 @@ $
 
 # History of marks within files (newest to oldest):
 
+> ~/.gitignore
+	"	9	3
+	^	9	4
+	.	9	3
+	+	6	6
+	+	8	6
+	+	9	3
+
 > ~/.bash_env
 	"	35	38
 	^	35	39
@@ -219,13 +228,6 @@ $
 	+	136	0
 	+	135	21
 	+	136	32
-
-> ~/.gitignore
-	"	7	0
-	^	8	8
-	.	8	0
-	+	6	6
-	+	8	0
 
 > ~/bin/dottar
 	"	1	39
